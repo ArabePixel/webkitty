@@ -30,7 +30,7 @@ window.lang = {
   "selectTemp": "قم بإختيار درجة حرارة",
   "default":  "الإفتراضي",
   "goldhenFirmwareSemiSupported": "* تفعيل الإضافات من خلال PayLoader الخاص بـ GoldHEN مدعوم على جميع الإصدارات",
-  "payloadOnlyWithGoldHEN": "تفعيل إضافة .elf مسموح فقط عن طريق خادم إضافات (PayLoader)GoldHEN!",
+  "payloadOnlyWithGoldHEN": "تفعيل هذه الإضافة مسموح فقط عن طريق خادم إضافات (PayLoader)GoldHEN!",
   "showAdvancedPayloads": "عرض الإضافات المتقدمة",
   "optionsHeader":  "الخيارات",
   "advanced": "المتقدم",

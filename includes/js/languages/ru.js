@@ -39,7 +39,7 @@ window.lang = {
     "payLoaderNotFound": "Сервер PayLoader не найден, он запущен?!",
     "ps4IpInvalid": "Неверный IP-адрес PS4",
     // payloads.js
-    "payloadOnlyWithGoldHEN": "Активация .elf возможна только через GoldHEN PayLoader!",
+    "payloadOnlyWithGoldHEN": "Активация этого пейлоада возможна только через GoldHEN PayLoader!",
     "busyBinLoader": "Невозможно запустить Payload так как PayLoader занят",
     "binLoaderNotDetected": "GoldHEN PayLoader не найден, он точно включен?!", // For no-webkit firmware
     "disabledBinloader": "GoldHEN PayLoader не найден, запустить payload через эксплоит?",

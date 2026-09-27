@@ -41,7 +41,7 @@ window.lang = {
     "ps4IpInvalid": "آدرس IP پلی‌استیشن 4 نامعتبر است",
 
     // payloads.js
-    "payloadOnlyWithGoldHEN": "پیلودهای .elf فقط باید از طریق PayLoader گلدهن بارگذاری شوند!",
+    "payloadOnlyWithGoldHEN": "این پی‌لود (Payload) باید صرفاً از طریق PayLoader برنامه GoldHEN بارگذاری شود!",
     "busyBinLoader": "امکان بارگذاری پیلود وجود ندارد زیرا سرور PayLoader مشغول است",
     "binLoaderNotDetected": "PayLoader گلدهن شناسایی نشد، آیا فعال است؟!",
     "disabledBinloader": "PayLoader گلدهن در حال اجرا نیست، آیا پیلود از طریق اکسپلویت بارگذاری شود؟",

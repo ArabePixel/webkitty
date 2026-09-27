@@ -244,6 +244,11 @@ function load_ps4SouthbridgeDetector(name) {
     Loadpayloadlocal("./includes/payloads/Bins/ps4-southbridge-detector.bin", name);
 }
 
+function load_onlineStoreInstaller(name) {
+    needsGoldHEN = true;
+    Loadpayloadlocal("./includes/payloads/Bins/online-store-installer.bin", name);
+}
+
 // Custom uploaded Payload
 function custom(payloadFile) {
     if (!payloadFile) {

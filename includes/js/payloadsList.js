@@ -27,15 +27,6 @@ const payloadsList = [
     funcName: "load_Elfldr"
   },
   {
-    id: "WebSrv",
-    name: "PS4-Websrv",
-    author: "ArabPixel",
-    description: "Launches a web server on port 80 on the PS4 to load payloads using external devices on the fly.",
-    specificFW: "",
-    category: "tools",
-    funcName: "load_WebSrv"
-  },
-  {
     id: "DisableUpdates",
     name: "Disable-Updates",
     author: "Scene Collective",
@@ -54,6 +45,15 @@ const payloadsList = [
     funcName: "load_ps4SouthbridgeDetector"
   },
   {
+    id: "OnlineStoreInstall",
+    name: "Online-Store-Installer",
+    author: "LightningMods",
+    description: "Online Installer for the PS4 Homebrew Store",
+    specificFW: "",
+    category: "tools",
+    funcName: "load_onlineStoreInstaller"
+  },
+  {
     id: "FanThreshold",
     name: "Fan-Threshold",
     author: "Scene Collective",
@@ -70,6 +70,15 @@ const payloadsList = [
     specificFW: "",
     category: "tools",
     funcName: "load_HistoryBlocker"
+  },
+  {
+    id: "WebSrv",
+    name: "PS4-Websrv",
+    author: "ArabPixel",
+    description: "Launches a web server on port 80 on the PS4 to load payloads using external devices on the fly.",
+    specificFW: "",
+    category: "tools",
+    funcName: "load_WebSrv"
   },
   {
     id: "NpFakeSignin",

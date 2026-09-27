@@ -48,7 +48,7 @@ window.lang = {
     "ps4IpPlaceholder": "PS4 IP 地址",
     "ps4FwPlaceholder": "PS4 固件",
     // payloads.js
-    "payloadOnlyWithGoldHEN": ".elf Payload 只能通过 GoldHEN 的 PayLoader 加载！",
+    "payloadOnlyWithGoldHEN": "此 Payload 只能通过 GoldHEN 的 PayLoader 加载！",
     "busyBinLoader": "PayLoader 服务器正忙，无法加载 Payload",
     "binLoaderNotDetected": "未检测到 GoldHEN 的 PayLoader，确认已经启用？",
     "disabledBinloader": "GoldHEN 的 PayLoader 未运行，是否改为通过 exploit 加载 Payload？",

@@ -38,7 +38,7 @@ window.lang = {
     "payLoaderNotFound": "PayLoader sunucusu bulunamadı, çalışıyor mu?!",
     "ps4IpInvalid": "Geçersiz PS4 IP adresi",
     // payloads.js
-    "payloadOnlyWithGoldHEN": ".elf payloadlar sadece GoldHEN PayLoader ile yüklenebilir!",
+    "payloadOnlyWithGoldHEN": ".Bu payload yalnızca GoldHEN Payload kullanılarak yüklenebilir!",
     "busyBinLoader": "PayLoader Sunucusu Meşgul Olduğundan Payload Yüklenemedi",
     "binLoaderNotDetected": "GoldHEN PayLoader algılanamadı, çalışıyor mu?!", // For no-webkit firmware
     "disabledBinloader": "GoldHEN PayLoader çalışmıyor, payload exploit üzerinden yüklensin mi?",
