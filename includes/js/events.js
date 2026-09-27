@@ -38,11 +38,13 @@ ui.psLogoContainer.addEventListener('click', () => {
 ui.toolsTab.addEventListener('click', () => {
     if (ui.toolsSection.classList.contains('hidden')) {
         ui.toolsSection.classList.remove('hidden');
+        ui.homebrewSection.classList.add('hidden');
         ui.linuxSection.classList.add('hidden');
         ui.advancedPayloadsSection.classList.add('hidden');
         ui.customPayloadsSection.classList.add('hidden');
 
         ui.toolsTab.setAttribute("aria-selected", "true");
+        ui.homebrewTab.setAttribute("aria-selected", "false");
         ui.linuxTab.setAttribute("aria-selected", "false");
         ui.advancedPayloadsTab.setAttribute("aria-selected", "false");
         ui.customPayloadsTab.setAttribute("aria-selected", "false");
@@ -55,14 +57,38 @@ ui.toolsTab.addEventListener('click', () => {
     saveLastTab('tools');
 })
 
+ui.homebrewTab.addEventListener('click', () => {
+    if (ui.homebrewSection.classList.contains('hidden')) {
+        ui.toolsSection.classList.add('hidden');
+        ui.homebrewSection.classList.remove('hidden');
+        ui.linuxSection.classList.add('hidden');
+        ui.advancedPayloadsSection.classList.add('hidden');
+        ui.customPayloadsSection.classList.add('hidden');
+
+        ui.toolsTab.setAttribute("aria-selected", "false");
+        ui.homebrewTab.setAttribute("aria-selected", "true");
+        ui.linuxTab.setAttribute("aria-selected", "false");
+        ui.advancedPayloadsTab.setAttribute("aria-selected", "false");
+        ui.customPayloadsTab.setAttribute("aria-selected", "false");
+
+        ui.toolsSection.innerHTML = '';
+        renderPayloads(payloadsList.filter(p => p.category === 'homebrew'));
+    }
+    ui.payloadsList.scrollTop = 0;
+    // Update lastTap
+    saveLastTab('homebrew');
+})
+
 ui.linuxTab.addEventListener('click', () => {
     if (ui.linuxSection.classList.contains('hidden')) {
         ui.toolsSection.classList.add('hidden');
+        ui.homebrewSection.classList.add('hidden');
         ui.linuxSection.classList.remove('hidden');
         ui.advancedPayloadsSection.classList.add('hidden');
         ui.customPayloadsSection.classList.add('hidden');
 
         ui.toolsTab.setAttribute("aria-selected", "false");
+        ui.homebrewTab.setAttribute("aria-selected", "false");
         ui.linuxTab.setAttribute("aria-selected", "true");
         ui.advancedPayloadsTab.setAttribute("aria-selected", "false");
         ui.customPayloadsTab.setAttribute("aria-selected", "false");
@@ -78,11 +104,13 @@ ui.linuxTab.addEventListener('click', () => {
 ui.advancedPayloadsTab.addEventListener('click', () => {
     if (ui.advancedPayloadsSection.classList.contains('hidden')) {
         ui.toolsSection.classList.add('hidden');
+        ui.homebrewSection.classList.add('hidden');
         ui.linuxSection.classList.add('hidden');
         ui.advancedPayloadsSection.classList.remove('hidden');
         ui.customPayloadsSection.classList.add('hidden');
 
         ui.toolsTab.setAttribute("aria-selected", "false");
+        ui.homebrewTab.setAttribute("aria-selected", "false");
         ui.linuxTab.setAttribute("aria-selected", "false");
         ui.advancedPayloadsTab.setAttribute("aria-selected", "true");
         ui.customPayloadsTab.setAttribute("aria-selected", "false");
@@ -99,11 +127,13 @@ ui.advancedPayloadsTab.addEventListener('click', () => {
 ui.customPayloadsTab.addEventListener('click', () => {
     if (ui.customPayloadsSection.classList.contains('hidden')) {
         ui.toolsSection.classList.add('hidden');
+        ui.homebrewSection.classList.add('hidden');
         ui.linuxSection.classList.add('hidden');
         ui.advancedPayloadsSection.classList.add('hidden');
         ui.customPayloadsSection.classList.remove('hidden');
 
         ui.toolsTab.setAttribute("aria-selected", "false");
+        ui.homebrewTab.setAttribute("aria-selected", "false");
         ui.linuxTab.setAttribute("aria-selected", "false");
         ui.advancedPayloadsTab.setAttribute("aria-selected", "false");
         ui.customPayloadsTab.setAttribute("aria-selected", "true");

@@ -167,6 +167,7 @@ function applyLanguage(lang) {
     updateText(ui.successRateText, 'successRate');
     updateText(ui.payloadsSectionTitle, 'payloadsHeader');
     updateText(ui.toolsTab, 'payloadsToolsHeader');
+    updateText(ui.homebrewTab, 'payloadsHomebrewHeader');
     updateText(ui.linuxTab, 'payloadsLinuxHeader');
     updateText(ui.advancedPayloadsTab, 'advanced');
     updateText(ui.consoleElement.querySelector('center'), 'waitingUserInput');

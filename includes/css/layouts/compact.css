@@ -115,6 +115,14 @@ input[type="radio"]:checked {
     border: none !important;
 }
 
+.category-homebrew {
+    background-color: rgba(245, 158, 11, 0.2);
+    /* 20% amber */
+    color: #fbbf24;
+    /* bright amber */
+    border: none !important;
+}
+
 /* AI CSS to replace tailwindcss (been lazy and I don't want to write everything from scratch)*/
 *,
 *::before,
@@ -1038,6 +1046,7 @@ button {
 }
 
 #tools,
+#homebrew,
 #linux,
 #advanced,
 #custom {

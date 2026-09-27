@@ -18,6 +18,7 @@ function saveLastTab(tab) {
     // Define the map of containers
     const sections = {
         'tools': ui.toolsSection,
+        'homebrew': ui.homebrewSection,
         'linux': ui.linuxSection,
         'advanced': ui.advancedPayloadsSection,
         'custom': ui.customPayloadsSection
@@ -78,6 +79,7 @@ function renderPayloads(payloads) {
     let targetContainer;
 
     if (firstCategory === 'tools') targetContainer = ui.toolsSection;
+    else if (firstCategory === 'homebrew') targetContainer = ui.homebrewSection;
     else if (firstCategory === 'linux') targetContainer = ui.linuxSection;
     else if (firstCategory === 'advanced') targetContainer = ui.advancedPayloadsSection;
 
@@ -116,6 +118,9 @@ function renderPayloads(payloads) {
             case "tools":
                 ui.toolsSection.appendChild(payloadCard);
                 break;
+            case "homebrew":
+                ui.homebrewSection.appendChild(payloadCard);
+                break;
             case "linux":
                 ui.linuxSection.appendChild(payloadCard);
                 break;
@@ -142,6 +147,7 @@ function loadAdvancedPayloads() {
 function getPayloadCategoryClass(category) {
     switch (category) {
         case 'tools': return 'category-tools';
+        case 'homebrew': return 'category-homebrew';
         case 'linux': return 'category-linux';
         case 'advanced': return 'category-advanced';
         default: return '';

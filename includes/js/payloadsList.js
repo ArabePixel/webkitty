@@ -45,15 +45,6 @@ const payloadsList = [
     funcName: "load_ps4SouthbridgeDetector"
   },
   {
-    id: "OnlineStoreInstall",
-    name: "Online-Store-Installer",
-    author: "LightningMods",
-    description: "Online Installer for the PS4 Homebrew Store",
-    specificFW: "",
-    category: "tools",
-    funcName: "load_onlineStoreInstaller"
-  },
-  {
     id: "FanThreshold",
     name: "Fan-Threshold",
     author: "Scene Collective",
@@ -277,5 +268,41 @@ const payloadsList = [
     specificFW: "",
     category: "advanced",
     funcName: "load_RIFRenamer"
-  }
+  },
+  {
+    id: "OnlineStoreInstall",
+    name: "Online Store Installer",
+    author: "LightningMods",
+    description: "Online Installer for the PS4 Homebrew Store.<br>You need an internet connection to use this payload.",
+    specificFW: "",
+    category: "homebrew",
+    funcName: "load_onlineStoreInstaller"
+  },
+  {
+    id: "ApolloSaveTool",
+    name: "Apollo-Save-Tool Installer",
+    author: "Bucanero",
+    description: "Apollo Save Tool is an application to manage save-game files on the PlayStation 4.<br>You need an internet connection to use this payload.",
+    specificFW: "",
+    category: "homebrew",
+    funcName: "load_ApolloSaveTool"
+  },
+  {
+    id: "ItemzFlow",
+    name: "Itemzflow Installer",
+    author: "LightningMods",
+    description: "Itemzflow is a Free and Open source PS4 home menu alternative Itemzflow expands the beyond limits of Sony's ShellUI.<br>You need an internet connection to use this payload.",
+    specificFW: "",
+    category: "homebrew",
+    funcName: "load_Itemsflow"
+  },
+  {
+    id: "PS4Xplorer2.0",
+    name: "PS4-File-Xplorer-2.08 Installer",
+    author: "Lapy",
+    description: "A File Manager for the PlayStation 4 console.<br>You need an internet connection to use this payload.",
+    specificFW: "13.52",
+    category: "homebrew",
+    funcName: "load_PS4Xplorer"
+  },
 ];

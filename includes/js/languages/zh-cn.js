@@ -9,7 +9,7 @@ window.lang = {
     "settingsBtnTitle": "设置",
     "aboutMenu": "关于",
     "payloadsToolsHeader": "工具",
-    "payloadsGameHeader": "游戏",
+    "payloadsHomebrewHeader": "自制软件",
     "payloadsLinuxHeader": "Linux",
     "payloadsCustomHeader": "自定义",
     "customPayloadHint": "上传自定义 payload 文件。",

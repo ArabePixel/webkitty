@@ -9,7 +9,7 @@ window.lang = {
     "settingsBtnTitle": "تنظیمات",
     "aboutMenu": "درباره",
     "payloadsToolsHeader": "ابزارها",
-    "payloadsGameHeader": "بازی",
+    "payloadsHomebrewHeader": "هومبرو",
     "payloadsLinuxHeader": "لینوکس",
     "aboutVersion": "نسخه: 2.0",
     "aboutDescription": "یک رابط وب غنی از امکانات برای جیلبریک کردن PS4.",

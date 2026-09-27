@@ -9,7 +9,7 @@ window.lang = {
     "settingsBtnTitle": "Настройки",
     "aboutMenu": "О",
     "payloadsToolsHeader": "Инструменты",
-    "payloadsGameHeader": "Модификации игр",
+    "payloadsHomebrewHeader": "Homebrew",
     "payloadsLinuxHeader": "Linux",
     "aboutVersion": "Версия: 2.0",
     "aboutDescription": "Многофункциональный веб-интерфейс для взлома вашей PS4.",

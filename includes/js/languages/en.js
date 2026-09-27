@@ -9,7 +9,7 @@ window.lang = {
     "settingsBtnTitle": "Settings",
     "aboutMenu": "About",
     "payloadsToolsHeader": "Tools",
-    "payloadsGameHeader": "Game",
+    "payloadsHomebrewHeader": "Homebrew",
     "payloadsLinuxHeader": "Linux",
     "aboutVersion": "Version: 2.0",
     "aboutDescription": "A feature rich web interface to jailbreak your PS4.",

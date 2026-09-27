@@ -9,7 +9,7 @@ window.lang = {
     "settingsBtnTitle": "Ayarlar",
     "aboutMenu": "Hakkında",
     "payloadsToolsHeader": "Araçlar",
-    "payloadsGameHeader": "Oyun",
+    "payloadsHomebrewHeader": "Homebrew",
     "payloadsLinuxHeader": "Linux",
     "aboutVersion": "Versiyon: 2.0",
     "aboutDescription": "PS4'ünüzü jailbreak yapmanızı sağlayan, zengin özelliklere sahip bir web arayüzü.",

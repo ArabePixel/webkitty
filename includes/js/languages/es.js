@@ -9,7 +9,7 @@ window.lang = {
     "settingsBtnTitle": "Ajustes",
     "aboutMenu": "Acerca de",
     "payloadsToolsHeader": "Herramientas",
-    "payloadsGameHeader": "Juego",
+    "payloadsHomebrewHeader": "Homebrew",
     "payloadsLinuxHeader": "Linux",
     "aboutVersion": "Version: 2.0",
     "aboutDescription": "Una interfaz web con muchas funciones para desbloquear tu PS4.",

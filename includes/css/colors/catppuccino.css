@@ -198,6 +198,12 @@ header button:hover,
     border-left: 4px solid #b5838d !important;
 }
 
+.category-homebrew {
+    background-color: rgba(245, 158, 11, 0.2);
+    color: #fbbf24;
+    border-left: 4px solid #fbbf24 !important;
+}
+
 /* Tabs Styling */
 .tabs button[aria-selected="true"] {
     border-color: #f2a65a !important;

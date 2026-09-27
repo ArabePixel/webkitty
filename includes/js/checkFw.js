@@ -123,7 +123,7 @@ function CheckFW() {
             elementsToHide = elementsToHide.filter(function (e) {
                 return toRemove2.indexOf(e) === -1;
             });
-            elementsToHide.push('initial-screen', 'henSelection', 'autoJbContainer', 'successRate', 'bareboneJBOption', 'chooseExploitChain', 'layouts', 'theme');
+            elementsToHide.push('initial-screen', 'henSelection', 'autoJbContainer', 'successRate', 'bareboneJBOption', 'chooseExploitChain', 'layouts', 'layout', 'theme');
 
             // Sizing the payload's section
             // Full screen for phones, centered for desktop

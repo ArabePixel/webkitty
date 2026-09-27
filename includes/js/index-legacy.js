@@ -48,6 +48,8 @@ var ui = {
   exploitState: document.getElementById('state'),
   toolsSection: document.getElementById('tools'),
   toolsTab: document.getElementById('tools-tab'),
+  homebrewSection: document.getElementById("homebrew"),
+  homebrewTab: document.getElementById("homebrew-tab"),
   linuxSection: document.getElementById('linux'),
   linuxTab: document.getElementById('linux-tab'),
   advancedPayloadsSection: document.getElementById('advanced'),

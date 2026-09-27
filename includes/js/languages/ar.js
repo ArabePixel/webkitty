@@ -9,7 +9,7 @@ window.lang = {
   "settingsBtnTitle": "الإعدادات",
   "aboutMenu": "حول",
   "payloadsToolsHeader": "الأدوات",
-  "payloadsGameHeader": "الألعاب",
+  "payloadsHomebrewHeader": "تطبيقات",
   "payloadsLinuxHeader": "لينكس",
   "aboutVersion": "الإصدار: 2.0",
   "aboutDescription": "واجهة ويب غنية بالمميزات لتعديل البلايستايشن 4",
