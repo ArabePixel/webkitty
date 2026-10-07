@@ -257,7 +257,7 @@ function load_ApolloSaveTool(name) {
 
 function load_Itemsflow(name) {
     needsGoldHEN = true;
-    Loadpayloadlocal("./includes/payloads/homebrew/ps4-Itemzflow.bin", name);
+    Loadpayloadlocal("./includes/payloads/homebrew/PS4-Itemzflow.bin", name);
 }
 
 function load_PS4Xplorer(name) {
